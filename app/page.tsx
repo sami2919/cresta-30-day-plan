@@ -170,7 +170,7 @@ function CopyLinkButton() {
       onClick={copyLink}
       className="mt-6 inline-flex rounded-md bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:bg-soft"
     >
-      {copied ? "Copied" : "Copy plan link"}
+      {copied ? "Copied" : "Share the plan"}
     </button>
   );
 }
@@ -182,7 +182,7 @@ export default function Home() {
         <header className="mb-16 rounded-lg border border-line bg-paper/85 p-6 shadow-memo sm:p-8">
           <div className="mb-12 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent">
-              Built for Stephen
+              My read on Cresta
             </p>
             <a
               href="https://github.com/sami2919"
@@ -194,10 +194,10 @@ export default function Home() {
 
           <div className="max-w-[790px]">
             <h1 className="text-4xl font-semibold tracking-tight text-ink sm:text-6xl">
-              How I'd Build Cresta's AI-Native Revenue Engine in 30 Days
+              How I'd Approach Cresta's Revenue Engine
             </h1>
             <p className="mt-6 max-w-[700px] text-lg leading-8 text-muted sm:text-xl">
-              A practical plan for turning GTM strategy into systems, signals,
+              A 30 day plan for turning GTM strategy into systems, signals,
               workflows, and compounding infrastructure.
             </p>
           </div>
@@ -324,10 +324,7 @@ export default function Home() {
                     key={step.title}
                     className="min-h-[170px] rounded-md border border-line bg-paper p-4"
                   >
-                    <span className="text-xs font-semibold uppercase tracking-[0.16em] text-accent">
-                      Step {index + 1}
-                    </span>
-                    <p className="mt-3 text-sm font-medium leading-6 text-ink">
+                    <p className="text-sm font-medium leading-6 text-ink">
                       {step.title}
                     </p>
                     <p className="mt-2 text-xs leading-5 text-muted">
@@ -370,6 +367,11 @@ export default function Home() {
                 product, demos, customer discovery, GTM workflows, and AI
                 systems. At AWS, I worked on applied AI and RAG systems that
                 connected technical architecture to business outcomes.
+              </p>
+              <p>
+                SignalForce is my proof of work for this exact problem: finding
+                high intent signals, scoring accounts, and turning that into
+                workflows reps can actually use.
               </p>
               <p>
                 Cresta's GTM Engineer role feels like the same kind of problem:
